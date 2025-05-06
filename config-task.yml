@@ -1,11 +1,11 @@
 # Task Name: (Required) 
-task_name: 'TypeScript Template'
+task_name: 'AYDO Koii Myst Task'
 # Task Author: (Required) 
-author: 'Koii'
+author: 'AYDO Ltd.'
 # Task Description: (Required) 
 description: 'description'
 # Repository URL: (Required)
-repositoryUrl: 'https://github.com/koii-network/task-template' 
+repositoryUrl: 'https://github.com/AYDOAI/aydo-koii-myst-task' 
 # Image URL: (Required) Will be displayed in desktop node
 imageUrl: 'imageUrl'
 # Info URL: (Required) Will be displayed in desktop node
