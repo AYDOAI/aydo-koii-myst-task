@@ -1,13 +1,14 @@
 import {getOrcaClient} from '@_koii/task-manager/extensions';
 import {namespaceWrapper, TASK_ID} from '@_koii/namespace-wrapper';
 import {createHash} from 'crypto';
-import {storeFile} from '../helpers.js';
+import {storeFile} from '../helpers';
 
 export async function submission(roundNumber: number): Promise<string | void> {
   console.log(`FETCH SUBMISSION FOR ROUND ${roundNumber}`);
   try {
     const orcaClient = await getOrcaClient();
     const result = await orcaClient.podCall(`submission/${roundNumber}`);
+    console.log('POD RESPONSE:', result);
 
     const submission = result.data;
 

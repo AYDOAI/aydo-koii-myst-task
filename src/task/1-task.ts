@@ -5,8 +5,9 @@ export async function task(roundNumber: number): Promise<void> {
     console.log(`EXECUTE TASK FOR ROUND ${roundNumber}`);
 
     const orcaClient = await getOrcaClient();
-    await orcaClient.podCall(`task/${roundNumber}`, {method: 'POST'});
+    const podResponse = await orcaClient.podCall(`task/${roundNumber}`, {method: 'POST'});
+    console.log('POD RESPONSE:', podResponse);
   } catch (error) {
-    console.error("EXECUTE TASK ERROR:", error);
+    console.log("EXECUTE TASK ERROR:", error);
   }
 }

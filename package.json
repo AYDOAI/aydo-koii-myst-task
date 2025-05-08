@@ -18,6 +18,7 @@
   "author": "Koii Network",
   "license": "ISC",
   "dependencies": {
+    "@_koii/orca-node": "^0.1.18",
     "@_koii/storage-task-sdk": "^1.2.7",
     "@_koii/task-manager": "^1.0.11",
     "@_koii/web3.js": "^0.1.11",

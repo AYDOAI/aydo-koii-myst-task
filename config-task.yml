@@ -3,13 +3,13 @@ task_name: 'AYDO Koii Myst Task'
 # Task Author: (Required) 
 author: 'AYDO Ltd.'
 # Task Description: (Required) 
-description: 'description'
+description: "The AYDO Koii Myst Task is a decentralized task that leverages the Mysterium Network to provide secure, private, and decentralized VPN services. This task allows users to run Mysterium nodes, earn rewards, and contribute to a global network of privacy-focused infrastructure. By participating in this task, users help maintain a robust and censorship-resistant VPN network, ensuring privacy and security for users worldwide. The task rewards node operators for their contribution to the network's reliability and performance, fostering a sustainable ecosystem for decentralized VPN services."
 # Repository URL: (Required)
 repositoryUrl: 'https://github.com/AYDOAI/aydo-koii-myst-task' 
 # Image URL: (Required) Will be displayed in desktop node
-imageUrl: 'imageUrl'
+imageUrl: 'https://cdn.prod.website-files.com/65f6f8696e3e74cc79b99495/6620cc99263244d81f65f8aa_MystNodes%20landingpage%20logo%20(1).svg'
 # Info URL: (Required) Will be displayed in desktop node
-infoUrl: 'infoUrl'
+infoUrl: 'https://www.mystnodes.com/'
 
 # Task executable network: (Required | DEVELOPMENT, ARWEAVE, or IPFS) : IPFS is the default and common value
 task_executable_network: 'IPFS'
@@ -30,7 +30,7 @@ submission_window: 500
 minimum_stake_amount: 1.9
 
 # Task Bounty Type: (Required | KOII or KPL) 
-task_type: 'KPL'
+task_type: 'KOII'
 
 # Token Mint Address: (ONLY task_type == KPL) Fire Token as an example here. 
 token_type: "4qayyw53kWz6GzypcejjT1cvwMXS1qYLSMQRE8se3gTv"
@@ -57,8 +57,8 @@ requirementsTags:
   - type: STORAGE
     value: '5 GB'
   - type: TASK_VARIABLE
-    value: 'EXAMPLE_VARIABLE'
-    description: 'EXAMPLE_VARIABLE_DESCRIPTION'
+    value: 'MYST_API_KEY'
+    description: 'Your Myst API key'
 
 # Tags: You can select the tags here via https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags
 tags: ["AI", "ML"] 
@@ -67,7 +67,7 @@ environment: "TEST"
 
 #################################### BELOW IS FOR UPDATE TASK ONLY ####################################
 # Old Task ID: (ONLY for task update) 
-task_id: ''
+task_id: '7yRdxjYqr4xpmaE4Q6PvNJ8osYYRo6VhGmyJGg73AvUL'
 
 # Migration Description: (ONLY for task update)
-migrationDescription: ''
+migrationDescription: 'Add description for task'

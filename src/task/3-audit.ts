@@ -1,4 +1,4 @@
-import {getFile} from '../helpers.js';
+import {getFile} from '../helpers';
 import {getOrcaClient} from '@_koii/task-manager/extensions';
 import {namespaceWrapper, TASK_ID} from '@_koii/namespace-wrapper';
 import {createHash} from 'crypto';

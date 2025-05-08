@@ -24,15 +24,22 @@ spec:
     - name: user-${podId}
       image: ${imageURL}
       env:
-      - name: MYST_API_KEY
-        value: "${process.env.MYST_API_KEY}"
+        - name: MYST_API_KEY
+          value: "${process.env.MYST_API_KEY}"
+      ports:
+        - containerPort: 4449
+          hostPort: 4449
+          protocol: TCP
+        - containerPort: 8080
+          hostPort: 8080
+          protocol: TCP
       volumeMounts:
-        - name: data-volume
-          mountPath: /data
+        - name: data-mysterium
+          mountPath: /root/.mysterium
   volumes:
-    - name: data-volume
+    - name: data-mysterium
       hostPath:
-        path: ${basePath}/orca/data
+        path: ${basePath}/orca/aydo/.mysterium
         type: DirectoryOrCreate
 `;
     return podSpec;
