@@ -4,6 +4,9 @@ task_name: 'AYDO Koii Myst Task'
 author: 'AYDO Ltd.'
 # Task Description: (Required) 
 description: "The AYDO Koii Myst Task is a decentralized task that leverages the Mysterium Network to provide secure, private, and decentralized VPN services. This task allows users to run Mysterium nodes, earn rewards, and contribute to a global network of privacy-focused infrastructure. By participating in this task, users help maintain a robust and censorship-resistant VPN network, ensuring privacy and security for users worldwide. The task rewards node operators for their contribution to the network's reliability and performance, fostering a sustainable ecosystem for decentralized VPN services."
+
+markdownDescriptionPath: './TaskDescription.md'
+
 # Repository URL: (Required)
 repositoryUrl: 'https://github.com/AYDOAI/aydo-koii-myst-task' 
 # Image URL: (Required) Will be displayed in desktop node
@@ -61,13 +64,13 @@ requirementsTags:
     description: 'Your Myst API key'
 
 # Tags: You can select the tags here via https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags
-tags: ["AI", "ML"] 
+tags: ["VPN", "Network", "Decentralized"] 
 # Environment: (Required | TEST or PRODUCTION) Production mode will expose your task to all the task runners. 
-environment: "TEST"
+environment: "PRODUCTION"
 
 #################################### BELOW IS FOR UPDATE TASK ONLY ####################################
 # Old Task ID: (ONLY for task update) 
-task_id: '7yRdxjYqr4xpmaE4Q6PvNJ8osYYRo6VhGmyJGg73AvUL'
+task_id: ''
 
 # Migration Description: (ONLY for task update)
-migrationDescription: 'Add description for task'
+migrationDescription: ''
