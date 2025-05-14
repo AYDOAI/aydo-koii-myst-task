@@ -53,6 +53,8 @@ space: 0.1
 
 # Requirement Tags: (Optional): To add more global variables and task variables, please refer to the type, value, description format shown below.
 requirementsTags:
+  - type: ADDON
+    value: 'ORCA_TASK'
   - type: CPU
     value: '4-core'
   - type: RAM
