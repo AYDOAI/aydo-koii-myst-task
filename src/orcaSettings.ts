@@ -39,7 +39,7 @@ spec:
   volumes:
     - name: data-mysterium
       hostPath:
-        path: ${basePath}/orca/aydo/.mysterium
+        path: ${basePath}/orca/.mysterium
         type: DirectoryOrCreate
 `;
     return podSpec;
