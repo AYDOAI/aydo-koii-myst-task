@@ -62,8 +62,8 @@ requirementsTags:
   - type: STORAGE
     value: '5 GB'
   - type: TASK_VARIABLE
-    value: 'MYST_API_KEY'
-    description: 'Your Myst API key'
+    value: 'BENEFICIARY_WALLET'
+    description: 'Your earnings will automatically be paid out to the wallet address submitted below. If you have not set your wallet or would like to update it, please do it now. Please make sure the address an ERC-20 Polygon compatible wallet e.g. MetaMask'
 
 # Tags: You can select the tags here via https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags
 tags: ["VPN", "Network", "Decentralized"] 
