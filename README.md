@@ -65,7 +65,7 @@ Beyond your core logic in the `1-task.js` file, there are 5 other task files wit
 
 Find more info in our tutorialized [Development Guide](https://github.com/koii-network/ezsandbox).
 
-To test a [full round cycle](https://docs.koii.network/gradual-consensus), use the following command:
+To test a [full round cycle](https://www.koii.network/docs/concepts/what-are-tasks/what-are-tasks/gradual-consensus), use the following command:
 
 ```sh
 yarn simulate
