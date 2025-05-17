@@ -24,8 +24,8 @@ spec:
     - name: user-${podId}
       image: ${imageURL}
       env:
-        - name: MYST_API_KEY
-          value: "${process.env.MYST_API_KEY}"
+        - name: BENEFICIARY_WALLET
+          value: "${process.env.BENEFICIARY_WALLET}"
       ports:
         - containerPort: 4449
           hostPort: 4449
