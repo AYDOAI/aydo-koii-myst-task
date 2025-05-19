@@ -51,6 +51,9 @@ Create a `.env` file (see `.env.developer.example` for template):
 
 - `BENEFICIARY_WALLET` — **(required)** ERC-20 Polygon-compatible address for rewards.
 
+#### What is BENEFICIARY_WALLET?
+Your earnings will automatically be paid out to the wallet address submitted below. If you have not set your wallet or would like to update it, please do it now. Please make sure the address is an **ERC-20 Polygon-compatible wallet**, e.g. MetaMask.
+
 ### Task Lifecycle
 
 1. **Setup** (`src/task/0-setup.ts`): Prepares environment.
