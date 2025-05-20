@@ -49,7 +49,7 @@ docker-compose up --build
 
 Create a `.env` file (see `.env.developer.example` for template):
 
-- `BENEFICIARY_WALLET` — **(required)** ERC-20 Polygon-compatible address for rewards.
+To test a [full round cycle](https://www.koii.network/docs/concepts/what-are-tasks/what-are-tasks/gradual-consensus), use the following command:
 
 #### What is BENEFICIARY_WALLET?
 Your earnings will automatically be paid out to the wallet address submitted below. If you have not set your wallet or would like to update it, please do it now. Please make sure the address is an **ERC-20 Polygon-compatible wallet**, e.g. MetaMask.
@@ -111,5 +111,6 @@ The task interacts with these endpoints automatically; you do not need to call t
 ---
 
 **This README is up-to-date as of [2024-06]. For pod details, see [AYDO Myst Pod repo](https://github.com/AYDOAI/aydo-koii-myst-pod).**
+**If you encounter any issues, don't hesitate to reach out by opening a ticket on [Discord](https://discord.gg/koii-network).**
 
 ---
