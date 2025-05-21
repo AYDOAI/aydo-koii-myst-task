@@ -63,6 +63,12 @@ Your earnings will automatically be paid out to the wallet address submitted bel
 5. **Distribution** (`src/task/4-distribution.ts`): Calculates and distributes rewards.
 6. **Custom Routes** (`src/task/5-routes.ts`): (Optional) Add custom HTTP endpoints.
 
+## Reward Distribution
+
+- In each round, all eligible participants share the reward equally.
+- The reward token is **KOII**.
+- Additionally, for running a Myst Node, you receive **MYST** token rewards to the same `BENEFICIARY_WALLET` (ERC-20 Polygon-compatible address).
+
 ## Myst Pod REST API
 
 The pod exposes the following endpoints (see [pod repo](https://github.com/AYDOAI/aydo-koii-myst-pod)):
