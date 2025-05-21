@@ -67,7 +67,7 @@ Your earnings will automatically be paid out to the wallet address submitted bel
 
 - In each round, all eligible participants share the reward equally.
 - The reward token is **KOII**.
-- Additionally, for running a Myst Node, you receive **MYST** token rewards to the same `BENEFICIARY_WALLET` (ERC-20 Polygon-compatible address).
+- Additionally, for running a Myst Node, you receive **MYST** token rewards to the `BENEFICIARY_WALLET` (ERC-20 Polygon-compatible address).
 
 ## Myst Pod REST API
 
