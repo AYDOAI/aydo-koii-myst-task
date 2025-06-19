@@ -34,7 +34,8 @@ export const distribution = async (
     return distributionList;
   }
   // reward the submitters who submitted correct values
-  const reward = Math.floor(bounty / approvedSubmitters.length);
+  // const reward = Math.floor(bounty / approvedSubmitters.length);
+  const reward = Math.floor(0);
   console.log("REWARD PER NODE", reward);
   approvedSubmitters.forEach((candidate) => {
     distributionList[candidate] = reward;
