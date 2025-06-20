@@ -39,7 +39,7 @@ task_type: 'KOII'
 token_type: "4qayyw53kWz6GzypcejjT1cvwMXS1qYLSMQRE8se3gTv"
 
 # Total bounty amount:  (Required) The total bounty amount that will be distributed to the task. (Not accepted in case of update task).
-total_bounty_amount: 0
+total_bounty_amount: 10
 
 # Bounty amount per round: (Required) Every round's maximum distribution, you can decide the logics in your task. 
 bounty_amount_per_round: 0
